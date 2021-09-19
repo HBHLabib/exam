@@ -1,0 +1,130 @@
+*{
+    padding: 0px; 
+    margin: 0px;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* css */
+
+.just-relax{
+    background: url(./back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    margin: 100px 0px;
+}
+
+.just-relax-content{
+    padding: 50px 0px;
+}
+
+.content-one{
+    width: 50%;
+    float: left;
+}
+.content-one h1{font-size: 35px;font-weight: 500;margin: 5px 0px;color: white;text-transform: uppercase;}
+.content-one p{
+    font-weight: 400;
+    margin: 0px 0px 10px;
+    color: white;
+}
+
+.content-one h1 span{
+    color: #82ef82;
+}
+
+.content-one h2{
+    font-size: 35px;
+    font-weight: 500;
+    margin: 5px 0px;
+    color: white;
+    text-transform: uppercase;
+}
+.content-one ul{
+    list-style: none;
+}
+.content-one ul li{
+    margin-bottom: 12px;
+    color: white;
+}
+.content-one ul li i{
+    width: 20px;
+    margin-right: 12px;
+    border: 1px solid white;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}
+.content-one button{
+    margin: 20px 0px;
+    background: cyan;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    color: white;
+    text-transform: uppercase;
+}
+.content-one button .btn{}
+
+
+.content-two{
+    width: 50%;
+    float: left;
+}
+.content-two form{
+    text-align: center;
+    background-color: #00ffff26;
+    padding: 30px 0px;
+    border-radius: 10px;
+}
+.content-two form h1{
+    text-transform: uppercase;
+    margin: 10px 0px;
+}
+.content-two form p{
+    margin: 10px 0px 30px;
+    color: white;
+    width: 500px;
+    margin: 10px auto 30px;
+}
+.content-two form input{
+    width: 55%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    text-transform: capitalize;
+    border-radius: 5px;
+}
+.content-two form button{
+    display: block;
+    width: 331px;
+    margin: 0px auto;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #62c1c5;
+    text-transform: uppercase;
+    color: white;
+    box-shadow: 0px 2px 0px white;
+    font-weight: 700;
+}
+
